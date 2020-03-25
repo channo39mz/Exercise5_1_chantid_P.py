@@ -1,0 +1,5 @@
+s = float(input("your s : "))
+t = float(input("your time : "))
+if s <= 0 : print("false")
+if t <= 0 : print("false")
+if s >= 0 and t >= 0 : print(s/t , "km/h")
